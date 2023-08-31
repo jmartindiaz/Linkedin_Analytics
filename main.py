@@ -24,6 +24,3 @@ def mostrar_libro(id:int):
 @app.post("/libros")
 def insertar_libro(libro: Libro):
     return {'mensaje': f'libro {libro.titulo} insertado'}
-
-
-
